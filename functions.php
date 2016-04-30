@@ -127,6 +127,16 @@ function rampantprint_scripts() {
 add_action( 'wp_enqueue_scripts', 'rampantprint_scripts' );
 
 /**
+ * Enqueue Google Fonts
+*/
+function web_fonts() {
+    wp_enqueue_style('web_fonts', 'https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans');
+}
+add_action('wp_enqueue_scripts', 'web_fonts');
+
+
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';

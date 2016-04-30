@@ -61,6 +61,9 @@
 	a {
 		display: block;
 		text-decoration: none;
+        color: $neutral-light;
+        padding: 2em;
+        font-family: 'Josefin Sans', sans-serif;
 	}
 
 	.current_page_item > a,

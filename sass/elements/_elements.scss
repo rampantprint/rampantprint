@@ -21,6 +21,10 @@ blockquote, q {
 	}
 }
 
+strong {
+   color: $secondary-alt; 
+}
+
 hr {
 	background-color: $color__background-hr;
 	border: 0;

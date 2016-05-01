@@ -10,6 +10,8 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+            
+            <img src="http://chad.rampantprint.com/wp-content/uploads/2016/04/dev-design-head.png" alt="dev-design-logo" class="dev-design-logo">
 
 			<?php
 			while ( have_posts() ) : the_post();

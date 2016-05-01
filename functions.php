@@ -116,8 +116,6 @@ add_action( 'widgets_init', 'rampantprint_widgets_init' );
 function rampantprint_scripts() {
 	wp_enqueue_style( 'rampantprint-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'rampantprint-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
 	wp_enqueue_script( 'rampantprint-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -130,7 +128,7 @@ add_action( 'wp_enqueue_scripts', 'rampantprint_scripts' );
  * Enqueue Google Fonts
 */
 function web_fonts() {
-    wp_enqueue_style('web_fonts', 'https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans');
+    wp_enqueue_style('web_fonts', 'https://fonts.googleapis.com/css?family=Raleway:400,700|Josefin+Sans:400,700');
 }
 add_action('wp_enqueue_scripts', 'web_fonts');
 

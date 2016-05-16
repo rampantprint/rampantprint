@@ -9,9 +9,16 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+        <main id="main" class="site-main" role="main">
+
+            <div class="about-graphics">
+                <div class="circle-header">
+                    <div class="about-role">Web Dev <span>|</span> Design</div>
+                    <div class="about-title">rampantprint</div>
+                </div>
             
-            <img src="http://chad.rampantprint.com/wp-content/uploads/2016/04/dev-design-head.png" alt="dev-design-logo" class="dev-design-logo">
+                <img src="http://chad.rampantprint.com/wp-content/uploads/2016/04/dev-design-head.png" alt="dev-design-logo" class="dev-design-logo">
+            </div>
 
 			<?php
 			while ( have_posts() ) : the_post();

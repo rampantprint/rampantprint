@@ -5,12 +5,17 @@
 .site-title {
     font-family: 'Josefin Sans', sans-serif;
     padding: 3.5em 2em 0 2em;
-    margin-bottom: 0;
+    margin: 0 auto;
+    width: 22em;
     a,
     a:hover,
     a:visited {
         color: $neutral-light;
         text-decoration: none;
         font-size: 3em;
+    }
+    @include media($desktop) {
+            @include span-columns(4);
+            @include shift(5.5);
     }
 }

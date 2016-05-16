@@ -3,11 +3,17 @@
 	display: block;
 	float: left;
 	width: 100%;
+    @include media($desktop) {
+            @include span-columns(4);
+            @include shift(5.3);
+    }
+
 
 	ul {
 		display: block;
 		list-style: none;
-		margin: 0;
+        margin: 0 auto;
+		width: 21em;
 		padding-left: 0;
 
 		ul {
@@ -61,10 +67,10 @@
 	a {
 		display: block;
 		text-decoration: none;
-        color: $highlight;
+        color: $neutral-light;
         font-family: 'Josefin Sans', sans-serif;
-        padding: 1em 1.7em;
-        font-size: 1.1em;
+        padding: 1em 1.4em;
+        font-size: 1.2em;
 	}
 
 	.current_page_item > a,

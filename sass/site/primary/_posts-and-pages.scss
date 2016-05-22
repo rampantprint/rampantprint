@@ -19,8 +19,12 @@
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
     font-family: 'Raleway', sans-serif;
+    margin-top: 1em;
+    @include media($desktop) {
+        margin-top: 0;
+    }
+    
 }
 
 .page-links {
@@ -29,5 +33,8 @@
 }
 
 .site-content {
-    padding: 1em;
+    padding: 2em;
+    @include media($desktop) {
+        padding: 1em;
+    }
 }

@@ -4,7 +4,7 @@
 
 .site-title {
     font-family: 'Josefin Sans', sans-serif;
-    padding: 3.5em 2em 0 2em;
+    padding: 2.5em 2em 0 2em;
     margin: 0 auto;
     width: 22em;
     a,
@@ -15,7 +15,7 @@
         font-size: 3em;
     }
     @include media($desktop) {
-            @include span-columns(4);
-            @include shift(5.5);
+            @include span-columns(6.5);
+            @include shift(5.2);
     }
 }

@@ -4,7 +4,7 @@
 
 #### Dependencies (Libraries, Fonts, etc.)
 - SASS 3.4.22 (therefore Ruby)
-- Bourbon (4.2.3), Neat (1.6.0) https://github.com/thoughtbot/bourbon
+- Bourbon (4.2.3), Neat (1.7.3) https://github.com/thoughtbot/bourbon
 - Google Fonts (Raleway|Josefin Sans)
 
 ![rampantprint Screenshot](/screenshot.png?raw=true)

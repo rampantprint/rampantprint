@@ -120,7 +120,10 @@ function rampantprint_scripts() {
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
-	}
+    }
+    
+    wp_enqueue_style( 'devicons-css', get_template_directory_uri() . '/vendor/devicons/css/devicons.min.css' );
+
 }
 add_action( 'wp_enqueue_scripts', 'rampantprint_scripts' );
 

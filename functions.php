@@ -127,6 +127,20 @@ function rampantprint_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'rampantprint_scripts' );
 
+add_action('wp_enqueue_scripts', 'enqueue_magnificpopup_styles');
+function enqueue_magnificpopup_styles() {
+    wp_register_style('magnific_popup_style', get_stylesheet_directory_uri().'/vendor/magnific-popup/magnific-popup.css', array('rampantprint-style'));
+    wp_enqueue_style('magnific_popup_style');
+}
+ 
+add_action('wp_enqueue_scripts', 'enqueue_magnificpopup_scripts');
+function enqueue_magnificpopup_scripts() {
+    wp_register_script('magnific_popup_script', get_stylesheet_directory_uri().'/vendor/magnific-popup/jquery.magnific-popup.min.js', array('jquery'));
+    wp_enqueue_script('magnific_popup_script');
+    wp_register_script('magnific_init_script', get_stylesheet_directory_uri().'/vendor/magnific-popup/jquery.magnific-popup-init.js', array('jquery'));
+    wp_enqueue_script('magnific_init_script');
+}
+
 /**
  * Enqueue Google Fonts
 */

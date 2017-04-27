@@ -16,8 +16,8 @@ get_header(); ?>
                     <div class="about-role">Web Dev <span>|</span> Design</div>
                     <div class="about-title">rampantprint</div>
                 </div>
-            
-                <img src="http://chad.rampantprint.com/wp-content/uploads/2016/06/dev-design-head.png" alt="dev-design-logo" class="dev-design-logo">
+
+                <img src="http://chad.rampantprint.com/wp-content/uploads/2016/06/dev-design-head.png" alt="Chad Curtis Web Dev" class="dev-design-logo">
             </div>
 
 			<?php

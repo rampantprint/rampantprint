@@ -1,4 +1,4 @@
-## rampantprint 1.0.0, A WordPress theme for chad.rampantprint.com 
+## rampantprint 1.0.0, A WordPress theme for www.rampantprint.com 
 ### Built upon \_s starter theme by Automattic https://github.com/Automattic/_s
 ### Design and Dev by Chad Curtis
 

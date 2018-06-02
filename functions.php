@@ -149,6 +149,25 @@ function web_fonts() {
 }
 add_action('wp_enqueue_scripts', 'web_fonts');
 
+/**
+ * Enqueue Google Analytics
+*/
+
+add_action('wp_head', 'rampantprint_googleanalytics');
+function rampantprint_googleanalytics() { ?>
+ 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40651122-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40651122-1');
+</script>
+ 
+<?php }
+
 // Custom thumbnails
 add_image_size( 'icon-thumb', 100, 100 );
 

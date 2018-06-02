@@ -68,8 +68,11 @@
 		text-decoration: none;
         color: $neutral-light;
         font-family: 'Josefin Sans', sans-serif;
-        padding: 1em 1.4em;
+        padding: 1em .8em;
         font-size: 1.2em;
+        @include media($desktop) {
+            padding: 1em 1.4em;
+        }
 	}
 
 	.current_page_item > a,

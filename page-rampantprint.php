@@ -17,7 +17,7 @@ get_header(); ?>
                     <div class="about-title">rampantprint</div>
                 </div>
 
-                <img src="http://www.rampantprint.com/wp-content/uploads/2016/06/dev-design-head.png" alt="Chad Curtis Web Dev" class="dev-design-logo">
+                <img src="https://www.rampantprint.com/wp-content/uploads/2016/06/dev-design-head.png" alt="Chad Curtis Web Dev" class="dev-design-logo">
             </div>
 
 			<?php

@@ -10,11 +10,11 @@ input[type="submit"] {
 	line-height: 1;
 	padding: .6em 1em .4em;
 	&:hover {
-	    background: $secondary-alt;	
+	    background: $secondary;	
 	}
 
 	&:active,
 	&:focus {
-		background: $secondary-alt;
+		background: $secondary;
 	}
 }
